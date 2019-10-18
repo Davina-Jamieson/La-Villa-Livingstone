@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>La Villa Livingstone</title>
+
+	<meta name="description" content="Welcome to La Villa Livingstone">
+
+	<meta charset="utf-8">	
+
+	<link href="https://fonts.googleapis.com/css?family=Cardo:400,700|Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" target='_blank' integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<div class="w3-content">
+ 		<img class="mySlides" src="villabanner.png" alt="slide_banner1" style="width:100%;
+ 		height: 500px;">
+		 <img class="mySlides" src="banner2villa.png" alt="slide_banner2" style="width:100%;
+ 		height: 500px;">
+		 <img class="mySlides" src="banner3villa.png" alt="slide_banner3" style="width:100%;
+ 		height: 500px;">
+		 <img class="mySlides" src="banner4villa.png" alt="slide_banner4" style="width:100%;
+ 		height: 500px;">
+		 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+		 <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	</div>
+
+	<script>
+		 var slideIndex = 1;
+		 showDivs(slideIndex);
+		 function plusDivs(n) {
+		 showDivs(slideIndex += n);
+		  }
+		 function showDivs(n) {
+		 var i;
+		 var x = document.getElementsByClassName("mySlides");
+		 if (n > x.length) {slideIndex = 1} if (n < 1) {slideIndex = x.length}for
+		 (i = 0; i < x.length; i++) {x[i].style.display = "none";}
+		 x[slideIndex-1].style.display = "block"; }
+	</script>
+
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="redirect">
+				<h2>
+					<a href="https://forms.gle/hphms9HSgP1LqQby9" target="_blank">Réserver une table </a>
+				</h2>
+			</div>	
+	    	<div class="col-md-12">	
+	    		<ul class="card-container">
+		    		<li>
+			      		<div class="card">
+							<img src="platsvilla.png" alt="plats villa">
+			        		<h2>
+			    				Plats
+			    			</h2>	
+			    		</div>
+			      	</li>
+			      	<li>
+				      	<div class="card">
+				      		<img src="foodvilla.png" alt="service traiteur">
+				    		<h2>
+				    			Réceptions privées
+				    		</h2>
+				      	</div>
+			      	</li>
+			    	<li>
+				    	<div class="card">
+							<img src="eventsvilla.png" alt="evenements villa">
+				    		<h2>
+				    			Service traiteur
+				    		</h2>
+				    	</div>
+			    	</li>
+	    		</ul>		      	  	
+			</div>		
+		</div>	
+	</div>
+
+
+</body>
+</html>
+
+
+

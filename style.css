@@ -1,0 +1,94 @@
+.w3-content{position:relative;margin-top:0em;}
+.w3-btn,.w3-button{border:none;display:inline-block;outline:0;padding:8px 16px;vertical-align:middle;overflow:hidden;text-decoration:none;color:inherit;background-color:inherit;text-align:center;cursor:pointer;white-space:nowrap}
+.w3-btn,.w3-button{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none} 
+.w3-disabled,.w3-btn:disabled,.w3-button:disabled{cursor:not-allowed;opacity:0.3}.w3-disabled *,:disabled *{pointer-events:none}
+.w3-bar-block .w3-dropdown-hover .w3-button,.w3-bar-block .w3-dropdown-click .w3-button{width:100%;text-align:left;padding:8px 16px}
+.w3-button:hover{color:#000!important;background-color:#ccc!important}
+
+.w3-content button {
+position: absolute;
+top: 50%;
+}
+
+.w3-display-right {right:0}
+.w3-display-left {left:0}
+
+body	{
+	background: grey;
+	color: rgb(50,50,50);
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 16px;
+	text-align: center;	
+}
+
+.card	{
+background-color: white;
+width: 250px;
+height: 200px;
+margin: 0px auto;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+transition: 0.2s;
+}
+
+.card-container {
+background-color:#0F6;
+width:100%;
+height: auto;
+text-align:center;
+margin:auto 0;  
+}
+.card-container ul {
+text-align:center;
+margin:auto 0;
+}
+.card-container li {
+list-style-type:none;
+padding:2em 2em 2em 2em;
+float:left;
+text-align:center;
+}
+
+.redirect {
+background-color: white;
+width: 150px;
+height: 75px;
+margin: 20px auto;
+padding: 5px;
+border-radius: 15px;
+box-shadow: 0 10px 30px rgba(0,0,0,.1);
+transition: 0.2s;
+text-align:center;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 40px auto;
+}
+		
+@media (max-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 350px;
+  }
+}
